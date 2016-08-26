@@ -1,0 +1,15 @@
+{
+  "name": "testingFtU",
+  "description": "Statistical test(F-test, t-test, and U-test) with two numerical arrays",
+  "launch_path": "/testingFtU.html",
+  "icons": {
+    "16": "/icon16x16.png",
+    "48": "/icon48x48.png",
+    "60": "/icon60x60.png",
+    "128": "/icon128x128.png"
+  },
+  "developer": {
+    "name": "Yuji SODE",
+    "url": "https://github.com/YujiSODE/aa"
+  }
+}
