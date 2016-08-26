@@ -2,6 +2,7 @@
 * subStatDist.js
 *
 * Copyright (c) 2016 Yuji SODE <yuji.sode@gmail.com>
+* https://github.com/YujiSODE/testingFtU
 *
 * This is released under the Artistic License.
 * See http://dev.perl.org/licenses/ and http://dev.perl.org/licenses/artistic.html
