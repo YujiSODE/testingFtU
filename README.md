@@ -15,3 +15,4 @@ ______
 ##How to use
 
 ##Library list
+* statDist.js (Yuji SODE,2016): the Artistic License or the GPL v1 or later; https://github.com/YujiSODE/statDist
