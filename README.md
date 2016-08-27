@@ -13,6 +13,11 @@ ______
 * subStatDist.js
 
 ##How to use
+###Sample data
+* The Sample A and Sample B: sample inputs (available data is csv formatted numerical array).
+* Run button; it runs three statistical tests(F-test, t-test, and U-test) with two given sample(Sample A and Sample B),  
+  and output the test result.
+* 
 
 ##Library list
 * statDist.js (Yuji SODE,2016): the Artistic License or the GPL v1 or later; https://github.com/YujiSODE/statDist
