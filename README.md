@@ -16,7 +16,8 @@ ______
 ###Sample data
 * The Sample A and Sample B: sample inputs (available data is csv formatted numerical array).
 * Run button; it runs three statistical tests(F-test, t-test, and U-test) with two given sample(Sample A and Sample B),  
-  and output the test result.
+  and outputs the test result.
+* Reset button; it clears the results by Run button.
 * 
 
 ##Library list
