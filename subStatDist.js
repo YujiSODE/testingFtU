@@ -17,7 +17,7 @@ var slf=this.window,W,r9=slf.Math.random().toFixed(9).replace(/\./g,''),cObj;
     return t.appendChild(E);
   };
   //=========================
-var B,tDiv,fm,fmR,lbA,ipA,lbB,ipB,Btn,txtA,restB,adrsLbl,adrs,sbmtB,t,D=[];
+var B,tDiv,fm,fmR,lbA,ipA,lbB,ipB,Btn,TxtALb,txtA,br01,restB,adrsLbl,adrs,sbmtB,t,D=[];
   B=slf.document.getElementsByTagName('body')[0];B.id='B'+r9;
   tDiv=f('div','div'+r9,B.id),B.removeAttribute('id');
   //<form>
@@ -38,7 +38,8 @@ var B,tDiv,fm,fmR,lbA,ipA,lbB,ipB,Btn,txtA,restB,adrsLbl,adrs,sbmtB,t,D=[];
   //</sample B>
   Btn=f('input','Btn'+r9,fm.id),Btn.type='button',Btn.value='Run';
   //<output as email>
-  txtA=f('textarea','result'+r9,fmR.id),txtA.name='Result';
+  TxtALb=f('label','labelTxtArea'+r9,fmR.id),TxtALb.innerHTML='Result:';
+  txtA=f('textarea','result'+r9,TxtALb.id),txtA.name='Result';
   restB=f('input','resetB'+r9,fmR.id),restB.type='button',restB.value='Reset';
   adrsLbl=f('label','adrsLbl'+r9,fmR.id),adrsLbl.innerHTML='<br>Email address:';
   adrs=f('input','adrs'+r9,adrsLbl.id),adrs.type='email',adrs.value='123.example@qwerty.com';
