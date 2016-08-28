@@ -27,9 +27,9 @@
 
 ## [1.0] - 2016-08-04
 ##Changed
-- [statistics-distributions_Ymdf.js] line 500: /*statistics-distributions-js_Ymdf.js (Ben Tilly,2008; modified by Yuji SODE, 2016)*/
-- [statistics-distributions_Ymdf.js] line 498: {return Math.ceil($i);}
-- [statistics-distributions_Ymdf.js] line 496: {return Math.floor($i);}
+- [statistics-distributions_Ymdf.js] line 500: `/*statistics-distributions-js_Ymdf.js (Ben Tilly,2008; modified by Yuji SODE, 2016)*/`
+- [statistics-distributions_Ymdf.js] line 498: `{return Math.ceil($i);}`
+- [statistics-distributions_Ymdf.js] line 496: `{return Math.floor($i);}`
 - [statistics-distributions_Ymdf.js] line 428-429: changed the way declare variables
 - [statistics-distributions_Ymdf.js] line 415-417: changed the way declare variables
 - [statistics-distributions_Ymdf.js] line 406-407: changed the way declare variables
@@ -51,12 +51,12 @@
 - [statistics-distributions_Ymdf.js] line 175-177: changed the way declare variables
 - [statistics-distributions_Ymdf.js] line 168-169: changed the way declare variables
 - [statistics-distributions_Ymdf.js] line 161-162: changed the way declare variables
-- [statistics-distributions_Ymdf.js] line 1-6: /*statistics-distributions-js_Ymdf.js (Ben Tilly,2008; modified by Yuji SODE, 2016)  
-  * https://github.com/YujiSODE/statistics-distributions-js_Ymdf  
-  * The original version: https://code.google.com/archive/p/statistics-distributions-js/  
-  * This is released under either the Perl Artistic License or the GPL v1 or later.  
-  * See http://dev.perl.org/licenses/ and http://dev.perl.org/licenses/artistic.html or http://dev.perl.org/licenses/gpl1.html  
-  */
+- [statistics-distributions_Ymdf.js] line 1-6: `/*statistics-distributions-js_Ymdf.js (Ben Tilly,2008; modified by Yuji SODE, 2016)`  
+  `* https://github.com/YujiSODE/statistics-distributions-js_Ymdf`  
+  `* The original version: https://code.google.com/archive/p/statistics-distributions-js/`  
+  `* This is released under either the Perl Artistic License or the GPL v1 or later.`  
+  `* See http://dev.perl.org/licenses/ and http://dev.perl.org/licenses/artistic.html or http://dev.perl.org/licenses/gpl1.html`  
+  `*/`
 
 ##Removed
 - [statistics-distributions_Ymdf.js] line 83-336: removed removable white space and comments
