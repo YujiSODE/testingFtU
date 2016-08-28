@@ -10,20 +10,20 @@
 
 ## [1.0] - 2016-08-24
 ##Changed
-- [calcStat_FtU.js] line 8: /*calcStat_FtU.js (Yuji SODE, 2016)*/
+- [calcStat_FtU.js] line 8: `/*calcStat_FtU.js (Yuji SODE, 2016)*/`
 - [calcStat_FtU.js] line 8-44: changed the way declare variables
 
 ##Removed
 - [calcStat_FtU.js] line 7-65: removed removable white space and comments
 
 ##Changed
-- [calcStat_FtU.js] line 5-6: *    https://github.com/YujiSODE/calcStat_FtU  
-  */
-- [calcStat_FtU.js] line 1-7: /* calcStat_FtU.js  
-  *    Copyright (c) 2016 Yuji SODE <yuji.sode@gmail.com>  
-  *    This software is released under the MIT License.  
-  *    See http://opensource.org/licenses/mit-license.php  
-  */
+- [calcStat_FtU.js] line 5-6: `*    https://github.com/YujiSODE/calcStat_FtU`  
+  `*/`
+- [calcStat_FtU.js] line 1-7: `/* calcStat_FtU.js`  
+  `*    Copyright (c) 2016 Yuji SODE <yuji.sode@gmail.com>`  
+  `*    This software is released under the MIT License.`  
+  `*    See http://opensource.org/licenses/mit-license.php`  
+  `*/`
 
 ## [1.0] - 2016-08-04
 ##Changed
