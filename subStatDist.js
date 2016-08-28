@@ -38,7 +38,7 @@ var B,tDiv,fm,fmR,lbA,ipA,lbB,ipB,Btn,TxtALb,txtA,br01,restB,adrsLbl,adrs,sbmtB,
   //</sample B>
   Btn=f('input','Btn'+r9,fm.id),Btn.type='button',Btn.value='Run';
   //<output as email>
-  TxtALb=f('label','labelTxtArea'+r9,fmR.id),TxtALb.innerHTML='Result:';
+  TxtALb=f('label','labelTxtArea'+r9,fmR.id),TxtALb.innerHTML='<br>Result:';
   txtA=f('textarea','result'+r9,TxtALb.id),txtA.name='Result';
   restB=f('input','resetB'+r9,fmR.id),restB.type='button',restB.value='Reset';
   adrsLbl=f('label','adrsLbl'+r9,fmR.id),adrsLbl.innerHTML='<br>Email address:';
