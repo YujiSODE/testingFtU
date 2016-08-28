@@ -40,6 +40,7 @@ var B,tDiv,fm,fmR,lbA,ipA,lbB,ipB,Btn,TxtALb,txtA,br01,restB,adrsLbl,adrs,sbmtB,
   //<output as email>
   TxtALb=f('label','labelTxtArea'+r9,fmR.id),TxtALb.innerHTML='<br>Result:';
   txtA=f('textarea','result'+r9,TxtALb.id),txtA.name='Result';
+  br01=f('br','br01_'+r9,fmR.id);
   restB=f('input','resetB'+r9,fmR.id),restB.type='button',restB.value='Reset';
   adrsLbl=f('label','adrsLbl'+r9,fmR.id),adrsLbl.innerHTML='<br>Email address:';
   adrs=f('input','adrs'+r9,adrsLbl.id),adrs.type='email',adrs.value='123.example@qwerty.com';
