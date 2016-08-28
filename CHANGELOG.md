@@ -1,5 +1,13 @@
 #Change Log
 
+## [1.1] - 2016-08-28
+##Changed
+- [subStatDist.js] line 44: br01=f('br','br01_'+r9,fmR.id);
+  restB=f('input','resetB'+r9,fmR.id),restB.type='button',restB.value='Reset';
+- [subStatDist.js] line 41: TxtALb=f('label','labelTxtArea'+r9,fmR.id),TxtALb.innerHTML='<br>Result:';
+  txtA=f('textarea','result'+r9,TxtALb.id),txtA.name='Result';
+- [subStatDist.js] line 20: var B,tDiv,fm,fmR,lbA,ipA,lbB,ipB,Btn,TxtALb,txtA,br01,restB,adrsLbl,adrs,sbmtB,t,D=[];
+
 ## [1.0] - 2016-08-24
 ##Changed
 - [calcStat_FtU.js] line 8: /*calcStat_FtU.js (Yuji SODE, 2016)*/
