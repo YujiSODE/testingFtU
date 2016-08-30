@@ -1,6 +1,9 @@
 #Change Log
 
 ## [2.0] - 2016-08-31
+##Changed
+- [README.md]: updated README.md
+
 ##Added
 - [subStatDist.js] line 52-53: `  lk=f('a','link'+r9,tDiv.id),lk.innerHTML='<br>Test with bootstrap method',lk.href='./testingFtU2.html';`
 
