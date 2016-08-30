@@ -50,6 +50,7 @@ var B,tDiv,fm,fmR,lbA,ipA,lbB,ipB,Btn,TxtALb,txtA,br01,restB,adrsLbl,adrs,sbmtB,
     F.action='mailto:'+this.value+'?subject='+slf.document.getElementsByTagName('title')[0].innerHTML+': '+slf.Date().replace(/\s/g,'_');
   },true);
   //</output as email>
+  lk=f('a','link'+r9,tDiv.id),lk.innerHTML='<br>Test with bootstrap method',lk.href='./testingFtU2.html';
 //============ web worker ============
   W=new Worker('./statDist.js');
   W.addEventListener('error',function(e){console.log(e.message),W.terminate();},true);
