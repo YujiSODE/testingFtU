@@ -22,7 +22,7 @@ ______
 ###[2 sample test]
 * **"Sample A" and "Sample B":** sample inputs (available data is csv formatted numerical array).
 * **"Run" button;** it runs three statistical tests(F-test, t-test, and U-test) with two given sample(Sample A and Sample B),  
-  and outputs the test result as the upper probabilities.
+  and outputs the test results as the upper probabilities.
 * **"Clear" button;** it clears the test results by "Run" button.
 * **"Output as email" button;** it saves the test results by "Run" button as email to given address.
 
@@ -33,7 +33,7 @@ ______
 * **"Significance level";** it sets a statistical significance level (0-1) in order to test if  
   the null hypothesis (no difference) is rejected.
 * **"Run" button;** it runs three statistical tests(F-test, t-test, and U-test) with the given sample and resampled data,  
-  and outputs the test result: three rates of the null hypothesis rejection, and details expressed with the upper  
+  and outputs the test results: three rates of the null hypothesis rejection, and details expressed with the upper  
   probabilities.
 * **"Clear" button;** it clears the test results by "Run" button.
 * **"Output as email" button;** it saves the test results by "Run" button as email to given address.
