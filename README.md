@@ -29,6 +29,7 @@ ______
 ###[Test with bootstrap method]
 * "Sample": sample input (available data is csv formatted numerical array).
 * "Resampling from": sample input to be resampled in bootstrap method (available data is csv formatted numerical array).
+* "Time of simulation"; it sets how many times the sample and resampled data are tested.
 * 
 
 ##Library list
