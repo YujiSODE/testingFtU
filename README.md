@@ -27,6 +27,8 @@ ______
 * "Output as email" button; it saves the test results by "Run" button as email to given address.
 
 ###[Test with bootstrap method]
+* "Sample": sample input (available data is csv formatted numerical array).
+* "Resampling from": sample input to be resampled in bootstrap method (available data is csv formatted numerical array).
 * 
 
 ##Library list
