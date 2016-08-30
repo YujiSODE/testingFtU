@@ -11,6 +11,9 @@ ______
 * testingFtU.html
 * statDist.js
 * subStatDist.js
+* testingFtU2.html
+* statDist2.js
+* subStatDist2.js
 
 ##How to use
 ###Sample data
