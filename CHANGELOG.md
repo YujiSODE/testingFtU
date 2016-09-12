@@ -1,5 +1,51 @@
 #Change Log
 
+## [unreleased] - 2016-09-10
+##Changed
+- [statDist3.js]  line 45-47 in statDist2.js: `  X/=N;`
+  `  slf.postMessage({t:X,p:P});`
+  `  c=dBts=P=null;`
+- [statDist3.js]  line 43 in statDist2.js: `    X+=P[I]<d4?1:0;`
+
+##Removed
+- [statDist3.js]  line 44-46 in statDist2.js
+- [statDist3.js]  line 43 in statDist2.js
+
+##Changed
+- [statDist3.js]  line 36-39 in statDist2.js: `I=0;while(I<d3){`
+  `    dBts=bootstrap(d0,d2),c=t_1spl(dBts,d1);`
+  `    //P=[p-value for t]`
+  `    P[I]=tprob(c[1],c[0]);`
+
+##Added
+- [statDist3.js]  line 25 in statDist2.js: `  //=== <t value for 1-sample t-test> ===`
+  `  t_1spl=function(A,m){`
+  `    //A and m are numerical array and given mean value respectively.`
+  `    var v=0,I=0,av=0,s2=0,n=A.length;`
+  `    while(I<n){v+=A[I],I+=1;}`
+  `    av=v/n,I=0,v=0;`
+  `    while(I<n){v+=(A[I]-av)*(A[I]-av),I+=1;}`
+  `    s2=v/(n-1);`
+  `    return [(av-m)/Math.sqrt(s2/n),n-1];};`
+  `  //=== <t value for 1-sample t-test> ===`
+
+##Removed
+- [statDist3.js]  line 24 in statDist2.js
+
+##Changed
+- [statDist3.js]  line 23 in statDist2.js: `  var t_1spl,c,d=e.data.split('@'),d0=d[0].split(','),d1=+d[1],d2=+d[2],d3=+d[3],d4=+d[4],I=0,N=0,dBts,P=[],X=0;`
+- [statDist3.js]  line 2 in statDist2.js: `* statDist3.js`
+- [statDist3.js]  line 19-20 in statDist2.js: `//the available data format is csv formatted numerical arrays, given mean value, time of simulation and significance level (0 to 1), separated with '@' as follows:`
+  `// e.g., '0,1,2@1@10@0.025'`
+- [statDist3.js]  line 17 in statDist2.js: `//{t:[(t<crit)/T],p:[p(t), ..., p(t)]}`
+- [statDist3.js]  line 15 in statDist2.js: `//this is Web Worker interface for statistical test (1-sample t-test) with bootstrap method.`
+
+##Removed
+- [statDist3.js]  line 53-60 in statDist2.js
+
+##Added
+- added files: statDist3.js modified from statDist2.js (Yuji SODE,2016), subStatDist3.js, and testingFtU3.html
+
 ## [2.0] - 2016-08-31
 ##Changed
 - [README.md]: updated README.md
