@@ -51,7 +51,7 @@ var B,tDiv,fm,fmR,lbA,ipA,lbB,ipB,Btn,TxtALb,txtA,br01,restB,adrsLbl,adrs,sbmtB,
   },true);
   //</output as email>
   lk=f('a','link'+r9,tDiv.id),lk.innerHTML='<br>Test with bootstrap method',lk.href='./testingFtU2.html';
-  lk2=f('a','link2'+r9,tDiv.id),lk.innerHTML='<br>1-sample t-test',lk.href='./testingFtU2.html';
+  lk2=f('a','link2'+r9,tDiv.id),lk.innerHTML='<br>1-sample t-test',lk.href='./testingFtU3.html';
 //============ web worker ============
   W=new Worker('./statDist.js');
   W.addEventListener('error',function(e){console.log(e.message),W.terminate();},true);
