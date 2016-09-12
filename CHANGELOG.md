@@ -1,5 +1,12 @@
 #Change Log
 
+## [3.0] - 2016-09-12
+##Changed
+- [] line :
+
+##Added
+- [testingFtU2.html] line 26: `<h3>F-test, t-test, and U-test with bootstrap simulation</h3>`
+
 ## [3.0] - 2016-09-10
 ##Changed
 - [statDist3.js]  line 45-47 in statDist2.js: `  X/=N;`
