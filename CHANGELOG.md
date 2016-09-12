@@ -2,7 +2,7 @@
 
 ## [3.0] - 2016-09-12
 ##Changed
-- [] line :
+- [testingFtU2.html] line 2: `<title>testingFtU@bootstrap_simulation</title>`
 
 ##Added
 - [testingFtU2.html] line 26: `<h3>F-test, t-test, and U-test with bootstrap simulation</h3>`
