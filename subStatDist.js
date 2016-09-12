@@ -17,7 +17,7 @@ var slf=this.window,W,r9=slf.Math.random().toFixed(9).replace(/\./g,''),cObj;
     return t.appendChild(E);
   };
   //=========================
-var B,tDiv,fm,fmR,lbA,ipA,lbB,ipB,Btn,TxtALb,txtA,br01,restB,adrsLbl,adrs,sbmtB,t,D=[],lk;
+var B,tDiv,fm,fmR,lbA,ipA,lbB,ipB,Btn,TxtALb,txtA,br01,restB,adrsLbl,adrs,sbmtB,t,D=[],lk,lk2;
   B=slf.document.getElementsByTagName('body')[0];B.id='B'+r9;
   tDiv=f('div','div'+r9,B.id),B.removeAttribute('id');
   //<form>
