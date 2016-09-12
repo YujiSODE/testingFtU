@@ -1,6 +1,6 @@
 #Change Log
 
-## [unreleased] - 2016-09-10
+## [3.0] - 2016-09-10
 ##Changed
 - [statDist3.js]  line 45-47 in statDist2.js: `  X/=N;`
   `  slf.postMessage({t:X,p:P});`
