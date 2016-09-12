@@ -2,7 +2,7 @@
 
 ## [3.0] - 2016-09-12
 ##Added
-- [subStatDist.js] line 54: ` lk2=f('a','link2'+r9,tDiv.id),lk.innerHTML='<br>1-sample t-test',lk.href='./testingFtU3.html';`
+- [subStatDist.js] line 54: ` lk2=f('a','link2'+r9,tDiv.id),lk2.innerHTML='<br>1-sample t-test',lk2.href='./testingFtU3.html';`
 
 ##Changed
 - [subStatDist.js] line 20: `var B,tDiv,fm,fmR,lbA,ipA,lbB,ipB,Btn,TxtALb,txtA,br01,restB,adrsLbl,adrs,sbmtB,t,D=[],lk,lk2;`
