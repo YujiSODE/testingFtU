@@ -2,7 +2,8 @@
 
 ##[3.1] - 2016-09-13
 ##Changed
--[subStatDist2.js] line 71: ` output+='Rejection rates:'+d.FtU+'\n<Details: p value>\n';`
+- [README.md] line 11: `###[2 sample test: v1.0+]`
+- [subStatDist2.js] line 71: ` output+='Rejection rates:'+d.FtU+'\n<Details: p value>\n';`
 
 ## [3.0] - 2016-09-12
 ##Added
