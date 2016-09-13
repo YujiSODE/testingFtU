@@ -24,14 +24,14 @@ ______
 * subStatDist3.js
 
 ##How to use
-###[2 sample test]
+###[2 sample test: testingFtU.html]
 * **"Sample A" and "Sample B":** sample inputs (available data is csv formatted numerical array).
 * **"Run" button;** it runs three statistical tests(F-test, t-test, and U-test) with two given sample(Sample A and Sample B),  
   and outputs the test results as the upper probabilities.
 * **"Clear" button;** it clears the test results by "Run" button.
 * **"Output as email" button;** it saves the test results by "Run" button as email to given address.
 
-###[Test with bootstrap method]
+###[Test with bootstrap method: testingFtU2.html]
 * **"Sample":** sample input (available data is csv formatted numerical array).
 * **"Resampling from":** sample input to be resampled in bootstrap method (available data is csv formatted numerical array).
 * **"Time of simulation";** it sets how many times the sample and resampled data are tested.
@@ -41,7 +41,7 @@ ______
 * **"Clear" button;** it clears the test results by "Run" button.
 * **"Output as email" button;** it saves the test results by "Run" button as email to given address.
 
-###[1-sample t-test]
+###[1-sample t-test: testingFtU3.html]
 * **"Resampling from"** sample input to be resampled in bootstrap method (available data is csv formatted numerical array).
 * **"Given mean";** it is used as predetermined value of mean in the 1-sample t-test.
 * **"Resampling size"** sample size to be resampled in bootstrap method.
