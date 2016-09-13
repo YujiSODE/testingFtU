@@ -45,7 +45,8 @@ ______
 * **"Resampling from"** sample input to be resampled in bootstrap method (available data is csv formatted numerical array).
 * **"Given mean"** it is used as predetermined value of mean in the 1-sample t-test.
 * **"Resampling size"** sample size to be resampled in bootstrap method.
-* 
+* **"Time of simulation"** it sets how many times resampled and tested.
+* **""**
 
 ##Library list
 * statDist.js (Yuji SODE,2016): the Artistic License or the GPL v1 or later; https://github.com/YujiSODE/statDist
