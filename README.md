@@ -41,6 +41,11 @@ ______
 * **"Clear" button;** it clears the test results by "Run" button.
 * **"Output as email" button;** it saves the test results by "Run" button as email to given address.
 
+###[1-sample t-test]
+* **"Resampling from"** sample input to be resampled in bootstrap method (available data is csv formatted numerical array).
+* **"Given mean"** it is used as predetermined value of mean in the 1-sample t-test.
+* **""**
+
 ##Library list
 * statDist.js (Yuji SODE,2016): the Artistic License or the GPL v1 or later; https://github.com/YujiSODE/statDist
 
