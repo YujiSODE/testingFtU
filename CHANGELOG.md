@@ -1,5 +1,9 @@
 #Change Log
 
+##[3.1] - 2016-09-13
+##Changed
+-[subStatDist2.js] line 71: ` output+='Rejection rates:'+d.FtU+'\n<Details: p value>\n';`
+
 ## [3.0] - 2016-09-12
 ##Added
 - [subStatDist.js] line 54: ` lk2=f('a','link2'+r9,tDiv.id),lk2.innerHTML='<br>1-sample t-test',lk2.href='./testingFtU3.html';`
