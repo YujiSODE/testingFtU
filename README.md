@@ -8,7 +8,7 @@ https://github.com/YujiSODE/testingFtU
 ______
 
 ##Script
-###[2 sample test]
+###[2 sample test: v1.0+]
 * testingFtU.html
 * statDist.js
 * subStatDist.js
