@@ -2,6 +2,7 @@
 
 ##[3.1] - 2016-09-13
 ##Changed
+- [README.md] line 16: `###[Test with bootstrap method: v2.0+]`
 - [README.md] line 11: `###[2 sample test: v1.0+]`
 - [subStatDist2.js] line 71: ` output+='Rejection rates:'+d.FtU+'\n<Details: p value>\n';`
 
