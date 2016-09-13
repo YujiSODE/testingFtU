@@ -13,7 +13,7 @@ ______
 * statDist.js
 * subStatDist.js
 
-###[Test with bootstrap method]
+###[Test with bootstrap method: v2.0+]
 * testingFtU2.html
 * statDist2.js
 * subStatDist2.js
