@@ -18,6 +18,11 @@ ______
 * statDist2.js
 * subStatDist2.js
 
+###[1-sample t-test: v3.0+]
+* testingFtU3.html
+* statDist3.js
+* subStatDist3.js
+
 ##How to use
 ###[2 sample test]
 * **"Sample A" and "Sample B":** sample inputs (available data is csv formatted numerical array).
