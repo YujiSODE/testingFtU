@@ -1,6 +1,9 @@
 #Change Log
 
 ##[3.1] - 2016-09-13
+##Added
+- added file: resultsExamples_20160913.txt
+
 ##Changed
 - [README.md] line 44: `###[1-sample t-test: testingFtU3.html]`
 - [README.md] line 34: `###[Test with bootstrap method: testingFtU2.html]`
