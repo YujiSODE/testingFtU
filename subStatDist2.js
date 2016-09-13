@@ -68,7 +68,7 @@ var B,tDiv,fm,fmR,lbA,ipA,lbB,ipB,lbTSm,ipTSm,lbAlpha,ipAlpha,Btn,TxtALb,txtA,br
   W.addEventListener('message',function(e){
     var output='F-test,t-test,U-test\n',d=e.data,n=d.p.length;
     t=slf.document.getElementById(txtA.id);
-    output+=d.FtU+'\n<Details: p value>\n';
+    output+='Rejection rates:'+d.FtU+'\n<Details: p value>\n';
     for(var i=0;i<n;i+=1){output+=d.p[i]+'\n';}
     t.value+=output;
   },true);

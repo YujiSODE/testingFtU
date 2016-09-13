@@ -8,31 +8,46 @@ https://github.com/YujiSODE/testingFtU
 ______
 
 ##Script
-###[2 sample test]
+###[2 sample test: v1.0+]
 * testingFtU.html
 * statDist.js
 * subStatDist.js
 
-###[Test with bootstrap method]
+###[Test with bootstrap method: v2.0+]
 * testingFtU2.html
 * statDist2.js
 * subStatDist2.js
 
+###[1-sample t-test: v3.0+]
+* testingFtU3.html
+* statDist3.js
+* subStatDist3.js
+
 ##How to use
-###[2 sample test]
+###[2 sample test: testingFtU.html]
 * **"Sample A" and "Sample B":** sample inputs (available data is csv formatted numerical array).
 * **"Run" button;** it runs three statistical tests(F-test, t-test, and U-test) with two given sample(Sample A and Sample B),  
   and outputs the test results as the upper probabilities.
 * **"Clear" button;** it clears the test results by "Run" button.
 * **"Output as email" button;** it saves the test results by "Run" button as email to given address.
 
-###[Test with bootstrap method]
+###[Test with bootstrap method: testingFtU2.html]
 * **"Sample":** sample input (available data is csv formatted numerical array).
 * **"Resampling from":** sample input to be resampled in bootstrap method (available data is csv formatted numerical array).
 * **"Time of simulation";** it sets how many times the sample and resampled data are tested.
 * **"Significance level";** it sets a statistical significance level (0-1) in order to test if the null hypothesis (no difference) is rejected.
 * **"Run" button;** it runs three statistical tests(F-test, t-test, and U-test) with the given sample and resampled data,  
   and outputs the test results: three rates of the null hypothesis rejection, and details expressed with the upper probabilities.
+* **"Clear" button;** it clears the test results by "Run" button.
+* **"Output as email" button;** it saves the test results by "Run" button as email to given address.
+
+###[1-sample t-test: testingFtU3.html]
+* **"Resampling from"** sample input to be resampled in bootstrap method (available data is csv formatted numerical array).
+* **"Given mean";** it is used as predetermined value of mean in the 1-sample t-test.
+* **"Resampling size"** sample size to be resampled in bootstrap method.
+* **"Time of simulation";** it sets how many times resampled and tested.
+* **"Significance level";** it sets a statistical significance level (0-1) in order to test if the null hypothesis (no difference) is rejected.
+* **"Run" button;** it runs 1-sample t-test with the given resampled data, and outputs the test results: a rate of the null hypothesis rejection, and details expressed with the upper probabilities.
 * **"Clear" button;** it clears the test results by "Run" button.
 * **"Output as email" button;** it saves the test results by "Run" button as email to given address.
 

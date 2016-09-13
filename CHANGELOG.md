@@ -1,5 +1,15 @@
 #Change Log
 
+##[3.1] - 2016-09-13
+##Changed
+- [README.md] line 44: `###[1-sample t-test: testingFtU3.html]`
+- [README.md] line 34: `###[Test with bootstrap method: testingFtU2.html]`
+- [README.md] line 27: `###[2 sample test: testingFtU.html]`
+- [README.md]: updated README.md
+- [README.md] line 16: `###[Test with bootstrap method: v2.0+]`
+- [README.md] line 11: `###[2 sample test: v1.0+]`
+- [subStatDist2.js] line 71: ` output+='Rejection rates:'+d.FtU+'\n<Details: p value>\n';`
+
 ## [3.0] - 2016-09-12
 ##Added
 - [subStatDist.js] line 54: ` lk2=f('a','link2'+r9,tDiv.id),lk2.innerHTML='<br>1-sample t-test',lk2.href='./testingFtU3.html';`
