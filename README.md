@@ -47,8 +47,9 @@ ______
 * **"Resampling size"** sample size to be resampled in bootstrap method.
 * **"Time of simulation";** it sets how many times resampled and tested.
 * **"Significance level";** it sets a statistical significance level (0-1) in order to test if the null hypothesis (no difference) is rejected.
-* **"Run" button;** it runs 1-sample t-test with the given resampled data,  
-  and outputs the test results: a rate of the null hypothesis rejection, and details expressed with the upper probabilities.
+* **"Run" button;** it runs 1-sample t-test with the given resampled data, and outputs the test results: a rate of the null hypothesis rejection, and details expressed with the upper probabilities.
+* **"Clear" button;** it clears the test results by "Run" button.
+* **"Output as email" button;** it saves the test results by "Run" button as email to given address.
 
 ##Library list
 * statDist.js (Yuji SODE,2016): the Artistic License or the GPL v1 or later; https://github.com/YujiSODE/statDist
