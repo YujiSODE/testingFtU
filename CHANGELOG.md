@@ -2,6 +2,9 @@
 
 ##[3.1] - 2016-09-13
 ##Changed
+- [README.md] line 44: `###[1-sample t-test: testingFtU3.html]`
+- [README.md] line 34: `###[Test with bootstrap method: testingFtU2.html]`
+- [README.md] line 27: `###[2 sample test: testingFtU.html]`
 - [README.md]: updated README.md
 - [README.md] line 16: `###[Test with bootstrap method: v2.0+]`
 - [README.md] line 11: `###[2 sample test: v1.0+]`
