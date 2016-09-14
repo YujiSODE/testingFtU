@@ -38,7 +38,7 @@ var B,tDiv,fm,fmR,lbA,ipA,lbM,ipM,lbSSize,ipSSize,lbTSm,ipTSm,lbAlpha,ipAlpha,Bt
   //</given mean value>
   //<given sample size>
   lbSSize=f('label','labelSSize'+r9,fm.id),lbSSize.innerHTML='<br>Resampling size:';
-  ipSSize=f('input','inputSSize'+r9,lbSSize.id),ipSSize.type='number',ipSSize.min=1,ipSSize.step=1,ipSSize.value=20;
+  ipSSize=f('input','inputSSize'+r9,lbSSize.id),ipSSize.type='number',ipSSize.min=2,ipSSize.step=1,ipSSize.value=20;
   //</given sample size>
   //<time of simulation>
   lbTSm=f('label','labelTSm'+r9,fm.id),lbTSm.innerHTML='<br>Time of simulation:';
