@@ -1,5 +1,11 @@
 #Change Log
 
+##[3.1.3] - 2017-02-22
+##Changed
+- [statDist3.js]: applied the update of "statistics-distributions_Ymdf.js" to version 0.3
+- [statDist2.js]: applied the update of "statistics-distributions_Ymdf.js" to version 0.3
+- [statDist.js]: applied the update of "statistics-distributions_Ymdf.js" to version 0.3
+
 ##[3.1.2] - 2016-09-14
 ##Changed
 - [subStatDist3.js] line 41: `  ipSSize=f('input','inputSSize'+r9,lbSSize.id),ipSSize.type='number',ipSSize.min=2,ipSSize.step=1,ipSSize.value=20;`
