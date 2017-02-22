@@ -2,7 +2,8 @@
 
 ##[3.1.3] - 2017-02-22
 ##Changed
-- []line:
+- [statDist2.js]:
+- [statDist.js]: applied the update of "statistics-distributions_Ymdf.js" to version 0.3
 
 ##[3.1.2] - 2016-09-14
 ##Changed
