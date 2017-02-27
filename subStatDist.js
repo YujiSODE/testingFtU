@@ -50,8 +50,8 @@ var B,tDiv,fm,fmR,lbA,ipA,lbB,ipB,Btn,TxtALb,txtA,br01,restB,adrsLbl,adrs,sbmtB,
     F.action='mailto:'+this.value+'?subject='+slf.document.getElementsByTagName('title')[0].innerHTML+': '+slf.Date().replace(/\s/g,'_');
   },true);
   //</output as email>
-  lk=f('a','link'+r9,tDiv.id),lk.innerHTML='<br>Test with bootstrap method',lk.href='./testingFtU2.html';
-  lk2=f('a','link2'+r9,tDiv.id),lk2.innerHTML='<br>1-sample t-test',lk2.href='./testingFtU3.html';
+  //lk=f('a','link'+r9,tDiv.id),lk.innerHTML='<br>Test with bootstrap method',lk.href='./testingFtU2.html';
+  //lk2=f('a','link2'+r9,tDiv.id),lk2.innerHTML='<br>1-sample t-test',lk2.href='./testingFtU3.html';
 //============ web worker ============
   W=new Worker('./statDist.js');
   W.addEventListener('error',function(e){console.log(e.message),W.terminate();},true);
