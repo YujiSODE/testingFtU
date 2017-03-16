@@ -7,31 +7,31 @@ https://github.com/YujiSODE/testingFtU
 >See LICENSE or http://dev.perl.org/licenses/ and http://dev.perl.org/licenses/artistic.html
 ______
 
-##Script
-###[2 sample test: v1.0+]
+## Script
+### [2 sample test: v1.0+]
 * testingFtU.html
 * statDist.js
 * subStatDist.js
 
-###[Test with bootstrap method: v2.0+]
+### [Test with bootstrap method: v2.0+]
 * testingFtU2.html
 * statDist2.js
 * subStatDist2.js
 
-###[1-sample t-test: v3.0+]
+### [1-sample t-test: v3.0+]
 * testingFtU3.html
 * statDist3.js
 * subStatDist3.js
 
-##How to use
-###[2 sample test: testingFtU.html]
+## How to use
+### [2 sample test: testingFtU.html]
 * **"Sample A" and "Sample B":** sample inputs (available data is csv formatted numerical array).
 * **"Run" button;** it runs three statistical tests(F-test, t-test, and U-test) with two given sample(Sample A and Sample B),  
   and outputs the test results as the upper probabilities.
 * **"Clear" button;** it clears the test results by "Run" button.
 * **"Output as email" button;** it saves the test results by "Run" button as email to given address.
 
-###[Test with bootstrap method: testingFtU2.html]
+### [Test with bootstrap method: testingFtU2.html]
 * **"Sample":** sample input (available data is csv formatted numerical array).
 * **"Resampling from":** sample input to be resampled in bootstrap method (available data is csv formatted numerical array).
 * **"Time of simulation";** it sets how many times the sample and resampled data are tested.
@@ -41,7 +41,7 @@ ______
 * **"Clear" button;** it clears the test results by "Run" button.
 * **"Output as email" button;** it saves the test results by "Run" button as email to given address.
 
-###[1-sample t-test: testingFtU3.html]
+### [1-sample t-test: testingFtU3.html]
 * **"Resampling from"** sample input to be resampled in bootstrap method (available data is csv formatted numerical array).
 * **"Given mean";** it is used as predetermined value of mean in the 1-sample t-test.
 * **"Resampling size"** sample size to be resampled in bootstrap method.
@@ -51,7 +51,7 @@ ______
 * **"Clear" button;** it clears the test results by "Run" button.
 * **"Output as email" button;** it saves the test results by "Run" button as email to given address.
 
-##Library list
+## Library list
 * statDist.js (Yuji SODE,2016): the Artistic License or the GPL v1 or later; https://github.com/YujiSODE/statDist
 
 >* statistics-distributions-js_Ymdf.js (Ben Tilly,2008; modified by Yuji SODE, 2016):  
