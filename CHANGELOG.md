@@ -1,20 +1,20 @@
-#Change Log
+# Change Log
 
-##[3.1.3] - 2017-02-22
-##Changed
+## [3.1.3] - 2017-02-22
+## Changed
 - [statDist3.js]: applied the update of "statistics-distributions_Ymdf.js" to version 0.3
 - [statDist2.js]: applied the update of "statistics-distributions_Ymdf.js" to version 0.3
 - [statDist.js]: applied the update of "statistics-distributions_Ymdf.js" to version 0.3
 
-##[3.1.2] - 2016-09-14
-##Changed
+## [3.1.2] - 2016-09-14
+## Changed
 - [subStatDist3.js] line 41: `  ipSSize=f('input','inputSSize'+r9,lbSSize.id),ipSSize.type='number',ipSSize.min=2,ipSSize.step=1,ipSSize.value=20;`
 
-##[3.1] - 2016-09-13
-##Added
+## [3.1] - 2016-09-13
+## Added
 - added file: resultsExamples_20160913.txt
 
-##Changed
+## Changed
 - [README.md] line 44: `###[1-sample t-test: testingFtU3.html]`
 - [README.md] line 34: `###[Test with bootstrap method: testingFtU2.html]`
 - [README.md] line 27: `###[2 sample test: testingFtU.html]`
@@ -24,35 +24,35 @@
 - [subStatDist2.js] line 71: ` output+='Rejection rates:'+d.FtU+'\n<Details: p value>\n';`
 
 ## [3.0] - 2016-09-12
-##Added
+## Added
 - [subStatDist.js] line 54: ` lk2=f('a','link2'+r9,tDiv.id),lk2.innerHTML='<br>1-sample t-test',lk2.href='./testingFtU3.html';`
 
-##Changed
+## Changed
 - [subStatDist.js] line 20: `var B,tDiv,fm,fmR,lbA,ipA,lbB,ipB,Btn,TxtALb,txtA,br01,restB,adrsLbl,adrs,sbmtB,t,D=[],lk,lk2;`
 - [testingFtU.html] line 24: ` <h3>F-test, t-test, and U-test with two numerical arrays</h3>`
 - [testingFtU2.html] line 2: `<title>testingFtU@bootstrap_simulation</title>`
 
-##Added
+## Added
 - [testingFtU2.html] line 26: ` <h3>F-test, t-test, and U-test with bootstrap simulation</h3>`
 
 ## [3.0] - 2016-09-10
-##Changed
+## Changed
 - [statDist3.js]  line 45-47 in statDist2.js: `  X/=N;`
   `  slf.postMessage({t:X,p:P});`
   `  c=dBts=P=null;`
 - [statDist3.js]  line 43 in statDist2.js: `    X+=P[I]<d4?1:0;`
 
-##Removed
+## Removed
 - [statDist3.js]  line 44-46 in statDist2.js
 - [statDist3.js]  line 43 in statDist2.js
 
-##Changed
+## Changed
 - [statDist3.js]  line 36-39 in statDist2.js: `I=0;while(I<d3){`
   `    dBts=bootstrap(d0,d2),c=t_1spl(dBts,d1);`
   `    //P=[p-value for t]`
   `    P[I]=tprob(c[1],c[0]);`
 
-##Added
+## Added
 - [statDist3.js]  line 25 in statDist2.js: `  //=== <t value for 1-sample t-test> ===`
   `  t_1spl=function(A,m){`
   `    //A and m are numerical array and given mean value respectively.`
@@ -64,10 +64,10 @@
   `    return [(av-m)/Math.sqrt(s2/n),n-1];};`
   `  //=== <t value for 1-sample t-test> ===`
 
-##Removed
+## Removed
 - [statDist3.js]  line 24 in statDist2.js
 
-##Changed
+## Changed
 - [statDist3.js]  line 23 in statDist2.js: `  var t_1spl,c,d=e.data.split('@'),d0=d[0].split(','),d1=+d[1],d2=+d[2],d3=+d[3],d4=+d[4],I=0,N=0,dBts,P=[],X=0;`
 - [statDist3.js]  line 2 in statDist2.js: `* statDist3.js`
 - [statDist3.js]  line 19-20 in statDist2.js: `//the available data format is csv formatted numerical arrays, given mean value, time of simulation and significance level (0 to 1), separated with '@' as follows:`
@@ -75,24 +75,24 @@
 - [statDist3.js]  line 17 in statDist2.js: `//{t:[(t<crit)/T],p:[p(t), ..., p(t)]}`
 - [statDist3.js]  line 15 in statDist2.js: `//this is Web Worker interface for statistical test (1-sample t-test) with bootstrap method.`
 
-##Removed
+## Removed
 - [statDist3.js]  line 53-60 in statDist2.js
 
-##Added
+## Added
 - added files: statDist3.js modified from statDist2.js (Yuji SODE,2016), subStatDist3.js, and testingFtU3.html
 
 ## [2.0] - 2016-08-31
-##Changed
+## Changed
 - [README.md]: updated README.md
 
-##Added
+## Added
 - [subStatDist.js] line 52-53: `  lk=f('a','link'+r9,tDiv.id),lk.innerHTML='<br>Test with bootstrap method',lk.href='./testingFtU2.html';`
 
-##Changed
+## Changed
 - [subStatDist.js] line 20: `var B,tDiv,fm,fmR,lbA,ipA,lbB,ipB,Btn,TxtALb,txtA,br01,restB,adrsLbl,adrs,sbmtB,t,D=[],lk;`
 
 ## [2.0] - 2016-08-30
-##Changed
+## Changed
 - [statDist2.js] line 17-22 in statDist.js:`  var c,d=e.data.split('@'),d0=d[0].split(','),d1=d[1].split(','),d2=+d[2],d3=+d[3],I=0,N=0,dBts,P=[],p,X=[0,0,0],pJn=[];`  
   `  I=0,N=d1.length;while(I<N){d1[I]=+d1[I],I+=1;}`  
   `  I=0,N=d0.length;while(I<N){d0[I]=+d0[I],I+=1;}`  
@@ -133,14 +133,14 @@
   `* or LICENSE.`  
   `*/`
 
-##Added
+## Added
 - [statDist2.js] line 41 in statDist.js: added modified version of bootstrapEst-2.1/bootstrapMdl.js
 - added files: statDist2.js modified from statDist (Yuji SODE,2016), subStatDist2.js, and testingFtU2.html
 
-##Removed
+## Removed
 - [bootstrapEst-2.1/bootstrapMdl.js] line 6-13: removed removable white space
 
-##Changed
+## Changed
 - [bootstrapEst-2.1/bootstrapMdl.js] line 13: `}`
 - [bootstrapEst-2.1/bootstrapMdl.js] line 6: `function bootstrap(A,n){`
 - [bootstrapEst-2.1/bootstrapMdl.js] line 14: `/*bootstrapEst-2.1/bootstrapMdl.js (Yuji SODE,2016)*/`
@@ -152,7 +152,7 @@
 - [subStatDist.js] line 44: `restB=f('input','resetB'+r9,fmR.id),restB.type='button',restB.value='Clear';`
 
 ## [1.1] - 2016-08-28
-##Changed
+## Changed
 - [subStatDist.js] line 43: `br01=f('br','br01_'+r9,fmR.id);`  
   `restB=f('input','resetB'+r9,fmR.id),restB.type='button',restB.value='Reset';`
 - [subStatDist.js] line 41: `TxtALb=f('label','labelTxtArea'+r9,fmR.id),TxtALb.innerHTML='<br>Result:';`   
@@ -160,14 +160,14 @@
 - [subStatDist.js] line 20: `var B,tDiv,fm,fmR,lbA,ipA,lbB,ipB,Btn,TxtALb,txtA,br01,restB,adrsLbl,adrs,sbmtB,t,D=[];`
 
 ## [1.0] - 2016-08-24
-##Changed
+## Changed
 - [calcStat_FtU.js] line 8: `/*calcStat_FtU.js (Yuji SODE, 2016)*/`
 - [calcStat_FtU.js] line 8-44: changed the way declare variables
 
-##Removed
+## Removed
 - [calcStat_FtU.js] line 7-65: removed removable white space and comments
 
-##Changed
+## Changed
 - [calcStat_FtU.js] line 5-6: `*    https://github.com/YujiSODE/calcStat_FtU`  
   `*/`
 - [calcStat_FtU.js] line 1-7: `/* calcStat_FtU.js`  
@@ -177,7 +177,7 @@
   `*/`
 
 ## [1.0] - 2016-08-04
-##Changed
+## Changed
 - [statistics-distributions_Ymdf.js] line 500: `/*statistics-distributions-js_Ymdf.js (Ben Tilly,2008; modified by Yuji SODE, 2016)*/`
 - [statistics-distributions_Ymdf.js] line 498: `{return Math.ceil($i);}`
 - [statistics-distributions_Ymdf.js] line 496: `{return Math.floor($i);}`
@@ -187,11 +187,11 @@
 - [statistics-distributions_Ymdf.js] line 371-379: changed the way declare variables
 - [statistics-distributions_Ymdf.js] line 352-353: changed the way declare variables
 
-##Removed
+## Removed
 - [statistics-distributions_Ymdf.js] line 337-499: removed removable white space and comments
 
 ## [1.0] - 2016-08-03
-##Changed
+## Changed
 - [statistics-distributions_Ymdf.js] line 318-322: changed the way declare variables
 - [statistics-distributions_Ymdf.js] line 318-322: changed the way declare variables
 - [statistics-distributions_Ymdf.js] line 303-308: changed the way declare variables
@@ -209,7 +209,7 @@
   `* See http://dev.perl.org/licenses/ and http://dev.perl.org/licenses/artistic.html or http://dev.perl.org/licenses/gpl1.html`  
   `*/`
 
-##Removed
+## Removed
 - [statistics-distributions_Ymdf.js] line 83-336: removed removable white space and comments
 - [statistics-distributions_Ymdf.js] line 1-82: removed comments
 - [statistics-distributions_Ymdf.js] line 500-530: removed comments
